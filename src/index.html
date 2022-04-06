@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/b17c5bda7c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>MD 4</title>
+</head>
+<body>
+    <div></div>
+    <form class="form form--small">
+        <div class="form__box">
+            <label class="form__input-box">
+                <span class="form__label">Email</span> <br>
+                <input class="form__input" type="email" placeholder="Email" required>
+            </label>
+        </div>
+
+        <div class="form__box">
+            <label class="form__input-box">
+                <span class="form__label">Password</span> <br>
+                <input class="form__input" type="password" placeholder="Password" required>
+            </label>
+        </div>
+
+        <label class="form__switch-box">
+            <div class="form__switch">
+                <input class="input" type="checkbox" checked>
+                <span class="slider round"></span>
+            </div>
+            <span class="form__switch-text">Subscribe to News</span>
+        </label>
+
+        <button class="form__button" type="submit">Sign In</button>
+        <a href="" class="form__link">Forgot your password?</a>
+        <hr class="form__hr">
+
+        <p class="form__external-login-label">or continue with</p>
+        <div class="form__box">
+            <button class="form__button form__button--with-logo" type="button">
+                <i class="fa-brands fa-google form__button-logo"></i>
+            </button>
+            <button class="form__button form__button--with-logo" type="button">
+                <i class="fa-brands fa-facebook form__button-logo"></i>
+            </button>
+        </div>
+    </form>
+
+    <form class="form">
+        <h2 class="form__header">Contact Us</h2>
+
+        <div class="form__box">
+            <label class="form__input-box">
+                <span class="form__label">FIrst name</span> <br>
+                <input class="form__input" type="text" placeholder="First Name.." required>
+            </label>
+            <label class="form__input-box">
+                <span class="form__label">Last Name</span> <br>
+                <input class="form__input" type="text" placeholder="Last Name.." required>
+            </label>
+        </div>
+
+        <div class="form__box">
+            <label class="form__input-box">
+                <span class="form__label">Phone Number</span> <br>
+                <input class="form__input" type="tel" placeholder="Phone Number.." required>
+            </label>
+            <label class="form__input-box">
+                <span class="form__label">Email</span> <br>
+                <input class="form__input" type="email" placeholder="Email.." required>
+            </label>
+        </div>
+
+        <label class="form__switch-box form__switch-box--big-margins">
+            <div class="form__checkbox">
+                <input class="input" type="checkbox" checked>
+                <div class="checkbox"><i class="fa-solid fa-check"></i></div>
+            </div>
+            <span class="form__switch-text">Subscribe to News</span>
+        </label>
+
+        <label class="form__input-box">
+            <span class="form__label form__label--small">Message</span> <br>
+            <textarea class="form__input form__input--area" placeholder="Type Message.." required></textarea>
+        </label>
+
+        <button class="form__button form__button--flex-end" type="submit">Submit</button>
+    </form>
+    
+    <section class="form form--split">
+        <section class="form__sidebar">
+            <p class="form__info-text form__info-text--tight-letters">Contact Information</p>
+            <p class="form__info-text">Here's some additional support text to help set user expectations.</p>
+            <p class="form__info-text form__info-text--16px-margin-bottom">
+                <i class="fa-solid fa-phone form__info-logo"></i>
+                123-456-7890
+            </p>
+            <p class="form__info-text form__info-text--16px-margin-bottom">
+                <i class="fa-solid fa-envelope form__info-logo"></i>
+                support@minerva.com
+            </p>
+        </section>
+        <form class="form form--half">
+            <h2 class="form__header">Contact Us</h2>
+            <div class="form__box">
+                <label class="form__input-box">
+                    <span class="form__label">FIrst name</span> <br>
+                    <input class="form__input" type="text" placeholder="First Name.." required>
+                </label>
+                <label class="form__input-box">
+                    <span class="form__label">Last Name</span> <br>
+                    <input class="form__input" type="text" placeholder="Last Name.." required>
+                </label>
+            </div>
+            <div class="form__box">
+                <label class="form__input-box">
+                    <span class="form__label">Meeting Date</span> <br>
+                    <input class="form__input" type="date" placeholder="Choose the Date.." required>
+                </label>
+                <label class="form__input-box">
+                    <span class="form__label">Email</span> <br>
+                    <input class="form__input" type="email" placeholder="Email.." required>
+                </label>
+            </div>
+            <label class="form__input-box">
+                <span class="form__label">Choose an Option:</span> <br>
+                <select class="form__input" required>
+                    <option class="form__input" value="work" disabled selected>Choose One ..</option>
+                    <option class="form__input" value="work">Work Application</option>
+                    <option class="form__input" value="business">Business Offer</option>
+                    <option class="form__input" value="recomendation">User Experience Recommendations</option>
+                    <option class="form__input" value="complaint">Complaints</option>
+                </select>
+            </label>
+            <label class="form__input-box">
+                <span class="form__label">Message</span> <br>
+                <textarea class="form__input form__input--area form__input--small" placeholder="Type Message.." required></textarea>
+            </label>
+            <button class="form__button form__button--flex-end" type="submit">Submit</button>
+        </form>
+    </section>
+    <form class="form">
+        <h2 class="form__header">Checkout</h2>
+
+        <div class="form__box">
+            <div class="form__seperation-box">
+                <h4 class="form__subheader">Your Order</h4>
+                <div class="form__list form__list--margin-left">
+                    <p class="form__list-header">Eggshell Plant Pot</p>
+                    <p class="form__list-item">Size: Medium</p>
+                    <p class="form__list-item">Qty: 1</p>
+                    <p class="form__list-item">$25.00</p>
+                </div>
+            </div>
+            <div class="form__seperation-box">
+                <h4 class="form__subheader">Delivery Details</h4>
+                <div class="form__box form__box--gap-32px">
+                    <div class="form__list">
+                        <p class="form__list-header">Adam Sandler</p>
+                        <p class="form__list-item">1234 Fake St</p>
+                        <p class="form__list-item">Milwaukee, WI 53203</p>
+                    </div>
+                    <div class="form__list">
+                        <p class="form__list-header">Shipping Speed</p>
+                        <p class="form__list-item">$7.00 No Rush Shipping</p>
+                        <p class="form__list-item">Arrives by 1/16/22</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 class="form__subheader">Payment Method</h4>
+        <div class="form__card-details">
+            <label class="form__input-box">
+                <span class="form__label">Card Number</span> <br>
+                <input class="form__input" type="text" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+            </label>
+            <label class="form__input-box">
+                <span class="form__label">Expiration Date</span> <br>
+                <input class="form__input" type="text" placeholder="MM/YY" required>
+            </label>
+            <label class="form__input-box">
+                <span class="form__label">CVV/CVD</span> <br>
+                <input class="form__input" type="number" placeholder="XXX" required>
+            </label>
+        </div>
+        <button class="form__button form__button--flex-end" type="submit">Continue</button>
+    </form>
+    <div></div>
+    <script src="/scripts.js"></script>
+</body>
+</html>
